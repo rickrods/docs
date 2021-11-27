@@ -60,10 +60,12 @@ Clear nearup folder
 On the Server: The Prerequisite has python3, git and curl toolset, which have been installed in previous step. 
 Run the following commmand.
 
-```pip3 install --user nearup
+```
+pip3 install --user nearup
 pip3 install --user --upgrade nearup
 USER_BASE_BIN=$(python3 -m site --user-base)/bin
-export PATH="$USER_BASE_BIN:$PATH"```
+export PATH="$USER_BASE_BIN:$PATH"
+```
 
 On each run, nearup self-updates to the latest version.
 
